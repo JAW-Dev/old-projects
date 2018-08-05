@@ -1,0 +1,39 @@
+/*---------------------------------------------------------
+ * Logos
+---------------------------------------------------------*/
+.header__logo--full {
+  display: none;
+  width: 366px;
+  height: 48px;
+  overflow: hidden;
+  @include media-query( 1055px ) {
+    display: block;
+  }
+  picture {
+    height: 48px;
+  }
+  .logo__svg {
+    .st0 {
+      fill:#24252E;
+    }
+    .st1{
+      fill:#066695;
+    }
+  }
+}
+.header__logo--mobile {
+  display: block;
+  width: 114px;
+  height: 38px;
+  margin: 0 auto;
+  overflow: hidden;
+  @include media-query( 1055px ) {
+    display: none;
+  }
+  picture {
+    height: 38px;
+  }
+  .mobile-logo__svg path {
+      fill: #fff;
+  }
+}

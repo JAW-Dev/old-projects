@@ -1,0 +1,108 @@
+/* Layout
+===============================================================================*/
+$susy: (
+  columns: 12,
+  container: 1200px,
+  gutters: .25,
+  global-box-sizing: border-box 
+  );
+@include border-box-sizing;
+.body__content {
+    @include container;
+    position: relative;
+    padding: 0 0.5em;
+}
+main {
+    position: relative;
+    clear: both;
+    z-index: 1;
+}
+.content__row{
+    overflow: hidden;
+    .col {
+        margin-bottom: $gutter;
+        margin-top: $gutter;
+        &:last-child {
+            @include span(last 0);
+        }
+    }
+    .col__one-half {
+        overflow: hidden;
+        @include span(12);
+        @include media-query($bp-tab-1) {
+            @include span(6);
+        }
+    }
+    .col__one-hlaf {
+        @include span(12);
+        float: none;
+        @include media-query($bp-tab-1) {
+            @include span(6);
+        }
+    }
+    .col__one-six {
+        width: 47%;
+        display: block;
+        float: left;
+        &:last-child {
+            float: right;
+            margin-right: 0;
+        }
+        &.col {
+            margin-top: 0;
+        }
+    }
+    .col__one-third {
+        @include span(12);
+        float: none;
+        @include media-query($bp-tab-1) {
+            @include span(4);
+        }
+        &:last-child {
+            float: left;
+        }
+    }
+    .col__two-third {
+        @include span(12);
+        float: none;
+        @include media-query($bp-tab-1) {
+            @include span(8);
+        }
+    }
+    .content__full {
+        @include span(12);
+    }
+    .col__inner {
+        text-align: center;
+        .col__one-third {
+            float: none;
+            display: inline-block;
+            text-align: left;
+            width: 380px;
+            max-width: 100%;
+            margin-right: 1.4%;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}
+.ie8 {
+    .content__row{
+        .col__one-six {
+            width: 15%;
+        }
+        .col__one-third {
+            @include span(12);
+            @include media-query($bp-tab-2) {
+                width: 32%;
+            }
+        }
+        .col__two-third {
+            @include span(12);
+            @include media-query($bp-tab-2) {
+               width: 65%;
+            }
+        }
+    }
+}

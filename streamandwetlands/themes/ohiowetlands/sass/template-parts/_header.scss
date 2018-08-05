@@ -1,0 +1,143 @@
+/* Header
+================================================================================*/
+.header {
+	width: 100%;
+	max-height: 169px;
+	display: inline-block;
+  	position: relative;
+  	overflow: hidden;
+  	@extend .index-1;
+  	@include aspect(56.25%);
+  	padding-top: 1em;
+  	&.mit-map{
+  		max-height: 90px;
+  		background-color: #3f93ab;
+  		.header__bg {
+  			display: none;
+  		}
+  	}
+  	@include media-query(480px) {
+		max-height: 287px;
+	}
+  	@include media-query(600px) {
+		max-height: 370px;
+	}
+  	@include media-query(768px) {
+		max-height: 500px;
+	}
+  	@include media-query(1025px) {
+		max-height: 665px;
+	}
+}
+.header__content {
+	@extend .content;
+	@extend .index-2;
+}
+.header__bg {
+	@include content_fill;
+	position: absolute;
+	z-index: 1;
+	img {
+		width: 100%;
+		height: auto;
+		position: relative;
+	    top: 0;
+	    bottom: 0;
+	    margin: auto;
+	    @include media-query(903px) {
+			position: relative;
+		}
+	}
+}
+.header__text {
+	width: 100%;
+	@extend .index-3;
+	position: absolute;
+	color: #fff;
+	text-align: center;
+	@include center_vert;
+	top: 60%;
+	a {
+		color: #fff;
+		text-decoration: none;
+		transition: color 0.3s ease;
+		&:hover {
+			transition: color 0.3s ease;
+			color: darken( #fff, 15% );
+		}
+	}
+	@include media-query(526px) {
+		top: 50%;
+	}
+}
+.header__text--heading {
+	font-weight: bold;
+	font-size: 1.4em;
+	line-height: 1.5;
+	display: block;
+	@include media-query(526px) {
+		font-size: 2em;
+	}
+	@include media-query(731px) {
+		font-size: 3.5em;
+	}
+}
+.header__text--body {
+	font-size: 1em;
+	line-height: 1.5;
+	display: none;
+	margin-bottom: 0.5em;
+	@include media-query(480px) {
+		display: block;
+	}
+	@include media-query(688px) {
+		font-size: 1.5em;
+	}
+	p {
+		margin-bottom: 0.3em;
+		@include media-query(688px) {
+			margin-bottom: 0;
+		}
+	}
+}
+.header__text--link {
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 1em;
+	line-height: 1.5;
+	display: none;
+	@include media-query(480px) {
+		display: block;
+	}
+	@include media-query(688px) {
+		font-size: 1.5em;
+	}
+}
+.header__logo {
+	float: left;
+	margin-left: 0;
+	width: 248px;
+	img {
+		width: 227px;
+  		height: 45px;
+	}
+	@include media-query(380px) {
+		width: auto;
+	}
+	@include media-query(968px) {
+		margin-right: 3em;
+	}
+}
+.header__contact {
+	height: 665px;
+	.header__bg {
+		height: 665px;
+		img {
+			@include content_fill;
+			margin: auto;
+		}
+	}
+	.header__text {
+		top: 350px;
+	}
+}

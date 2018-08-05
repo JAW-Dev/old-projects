@@ -1,0 +1,93 @@
+/*---------------------------------------------------------
+ * Boxes
+---------------------------------------------------------*/
+.fp-boxes {
+  a {
+    text-decoration: none;
+  }
+}
+.fp-boxes__img-wrapper {
+  height: 127px;
+  display: none;
+  @include media-query(480px) {
+    display: block;
+  }
+}
+.fp-boxes__advocacy,
+.fp-boxes__membership,
+.fp-boxes__education {
+  opacity: 0.7;
+  text-align: center;
+  height: auto;
+  padding: 1em;
+  picture {
+    overflow: hidden;
+    margin: 0 auto;
+    
+  }
+  .st0, 
+  .fp-boxes__heading,
+  .fp-boxes__text {
+    fill: #fff;
+    color: #fff;
+    stroke: #fff;
+    text-decoration: none;
+  }
+  @include media-query(480px) {
+    padding: 2em;
+  }
+  @include media-query(1025px) {
+    height: 450px;
+    padding: 4em;
+  }
+}
+.fp-boxes__advocacy,
+.fp-boxes__membership {
+  background-color: $light-blue;
+  transition: background-color 0.4s ease-in-out, opacity 0.4s ease-in-out;
+  &:hover {
+    background-color: #23232c;
+    opacity: 1;
+    transition: background-color 0.4s ease-in-out, opacity 0.4s ease-in-out;
+  }
+}
+.fp-boxes__education {
+  background-color: $dark-blue;
+  transition: background-color 0.4s ease-in-out, opacity 0.4s ease-in-out;
+  picture,
+  img {
+    width: 124px;
+    height: 81px;
+  }
+  &:hover {
+    background-color: #23232c;
+    opacity: 1;
+    transition: background-color 0.4s ease-in-out, opacity 0.4s ease-in-out;
+  }
+}
+.fp-boxes__advocacy {
+  picture,
+  img {
+    width: 93px;
+    height: 127px;
+  }
+}
+.fp-boxes__membership {
+  picture,
+  img {
+    width: 68px;
+    height: 110px;
+  }
+}
+.fp-boxes__text {
+  @include font-size(21);
+}
+.fp-boxes__heading {
+  @include font-size(25);
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+.fp-boxes__img-wrapper {
+  margin-top: 1em;
+}

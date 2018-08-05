@@ -1,0 +1,26 @@
+/*---------------------------------------------------------
+ * Divider
+---------------------------------------------------------*/
+.section-divider {
+  border-top: 14px solid #23232c;
+  background-color: $dark-grey;
+  @include font-size(28);
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 4em;
+  font-family: "Montserrat";
+  a {
+    color: #fff;
+    text-decoration: none;
+    padding: 2em 1em;
+    display: block;
+    transition: color 0.4s ease-in-out;
+      &:hover {
+        color:$light-blue;
+        transition: color 0.4s ease-in-out;
+      }
+  }
+  p {
+    margin: 0;
+  }
+}

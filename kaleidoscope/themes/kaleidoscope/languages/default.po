@@ -1,0 +1,136 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Nu Theme\n"
+"POT-Creation-Date: 2013-05-01 18:33-0500\n"
+"PO-Revision-Date: 2013-05-01 18:35-0500\n"
+"Last-Translator: \n"
+"Language-Team: Team Name <team@emailaddress.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:8
+msgid "Page Not Found!"
+msgstr ""
+
+#: ../404.php:13
+msgid "Sorry, but the page you were trying to view does not exist."
+msgstr ""
+
+#: ../archive.php:4
+msgid "Posts Categorized:"
+msgstr ""
+
+#: ../archive.php:6
+msgid "Posts Tagged:"
+msgstr ""
+
+#: ../archive.php:11
+msgid "Posts By:"
+msgstr ""
+
+#: ../archive.php:13
+msgid "Daily Archives:"
+msgstr ""
+
+#: ../archive.php:16
+msgid "Monthly Archives:"
+msgstr ""
+
+#: ../archive.php:19
+msgid "Yearly Archives:"
+msgstr ""
+
+#: ../archive.php:25 ../archive.php:51 ../index.php:6 ../index.php:46
+#: ../search.php:6 ../search.php:32
+msgid "&larr; Older"
+msgstr ""
+
+#: ../archive.php:28 ../archive.php:54 ../index.php:9 ../index.php:49
+#: ../search.php:9 ../search.php:35
+msgid "Newer &rarr;"
+msgstr ""
+
+#: ../functions.php:131
+msgid "Edit"
+msgstr ""
+
+#: ../functions.php:139
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../functions.php:157
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: ../functions.php:177
+msgid "Reply"
+msgstr ""
+
+#: ../header.php:38
+msgid "Skip to content"
+msgstr ""
+
+#: ../page.php:28 ../single.php:62
+msgid "Pages:"
+msgstr ""
+
+#: ../page.php:33 ../single.php:67
+msgid "Previous"
+msgstr ""
+
+#: ../page.php:34 ../single.php:68
+msgid "Next"
+msgstr ""
+
+#: ../single.php:24 ../template-parts/loop-archive.php:22
+#: ../template-parts/loop-index.php:22 ../template-parts/loop-search.php:22
+msgid "Witten by <span class=\"fn n\">"
+msgstr ""
+
+#: ../single.php:25 ../template-parts/loop-archive.php:23
+#: ../template-parts/loop-index.php:23 ../template-parts/loop-search.php:23
+msgid "</span>"
+msgstr ""
+
+#: ../single.php:32 ../template-parts/loop-archive.php:30
+#: ../template-parts/loop-index.php:30 ../template-parts/loop-search.php:30
+msgid "Posted on "
+msgstr ""
+
+#: ../single.php:38 ../template-parts/loop-archive.php:36
+#: ../template-parts/loop-index.php:36 ../template-parts/loop-search.php:36
+msgid "Categories "
+msgstr ""
+
+#: ../single.php:45 ../template-parts/loop-archive.php:43
+#: ../template-parts/loop-index.php:43 ../template-parts/loop-search.php:43
+msgid "Tags "
+msgstr ""
+
+#: ../includes/classes/register_sidebars.php:36
+msgid " Sidebar"
+msgstr ""
+
+#: ../includes/classes/register_sidebars.php:38
+msgid "Widgets in this area will be shown in the "
+msgstr ""
+
+#: ../template-parts/loop-index.php:65
+msgid "More"
+msgstr ""
+
+#: ../template-parts/no-entry.php:6
+msgid "Post Not Found!"
+msgstr ""
+
+#: ../template-parts/no-entry.php:11
+msgid "No Content Yet"
+msgstr ""

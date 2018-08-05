@@ -1,0 +1,8 @@
+Touched:
+front.php
+functions.php
+header.php
+style.php
+footer.php
+page-template-jobs.php
+page-template-portfolio.php

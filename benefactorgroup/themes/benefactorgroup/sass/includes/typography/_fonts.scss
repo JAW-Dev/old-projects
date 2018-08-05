@@ -1,0 +1,48 @@
+/* Fonts
+===============================================================================*/
+.rockwell {
+    font-family:'Rockwell W02';
+}
+.rockwell-light-italic {
+    font-family:'RockwellW01-LightItalic';
+}
+.rockwell-light {
+    font-family:'Rockwell W01 Light';
+}
+.averin-next-lt {
+    font-family:'Avenir Next LT W01 SC';
+}
+.averin-next-thin{
+    font-family:'Avenir Next W01 Thin';
+}
+
+@font-face {
+	font-family: 'social-icons';
+	src:url('fonts/social-icons.eot?-lfhuj2');
+	src:url('fonts/social-icons.eot?#iefix-lfhuj2') format('embedded-opentype'),
+		url('fonts/social-icons.woff?-lfhuj2') format('woff'),
+		url('fonts/social-icons.ttf?-lfhuj2') format('truetype'),
+		url('fonts/social-icons.svg?-lfhuj2#social-icons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'social-icons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-thumbs-up:before {
+	content: "\74";
+}
+
+.icon-plus:before {
+	content: "\70";
+}

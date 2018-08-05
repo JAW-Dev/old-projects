@@ -1,0 +1,26 @@
+// Placeholders
+//================================================================================
+// Clear and Clearfix
+//***********************************/
+%clear {
+  @include clear;
+}
+%clearfix {
+  @include clearfix
+}
+// Fluid Media
+//***********************************/
+%fluid-media {
+  @include fluid-media;
+}
+// Image Replacement
+//***********************************/
+%ir {
+  @include ir;
+}
+.ir {
+  @include ir;
+}
+.header-link{
+    display: block;
+}

@@ -1,0 +1,18 @@
+/*---------------------------------------------------------
+ * Top Link
+---------------------------------------------------------*/
+.top {
+  background-color: $dark-grey;
+  padding: 0.5em 1em;
+  display: block;
+  width: 100%;
+}
+.top {
+  height: 45px;
+  picture {
+    width: 46px;
+    height: 29px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+}

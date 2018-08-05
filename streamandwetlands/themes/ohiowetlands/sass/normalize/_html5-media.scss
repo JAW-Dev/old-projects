@@ -1,0 +1,12 @@
+// HTML5 Media
+//***********************************/
+audio, 
+canvas, 
+video { 
+	display: inline-block; 
+	vertical-align: baseline;
+}
+audio:not([controls]) { 
+	display: none; 
+	height: 0;
+}

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA;;2DAE2D;AAIvD,QAAE;EACA,GAAG,EAAE,IAAI",
+"sources": ["../sass/ie8.scss"],
+"names": [],
+"file": "ie8.style.css"
+}

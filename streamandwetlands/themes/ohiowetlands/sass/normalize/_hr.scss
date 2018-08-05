@@ -1,0 +1,14 @@
+// hr Element
+//***********************************/
+hr {
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0px;
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+	display: block;
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-color: #ccc;
+}

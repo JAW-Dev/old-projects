@@ -1,0 +1,36 @@
+/*---------------------------------------------------------
+ * Alignment
+---------------------------------------------------------*/
+.alignnone,
+a img.alignnone {
+  margin: 0.5em 2em 2em 0;
+}
+
+.aligncenter,
+div.aligncenter,
+a img.aligncenter {
+  display: block;
+  margin: 0.5em auto 1em auto;
+}
+
+.alignright,
+a img.alignright {
+  float: none;
+  display: block;
+  margin: 0.5em auto 1em auto;
+  @include media-query(768px) {
+    float: right;
+    margin: 0.5em -2em 2em 2em;
+  }
+}
+
+.alignleft,
+a img.alignleft {
+  float: none;
+  display: block;
+  margin: 0.5em auto 1em auto;
+  @include media-query(768px) {
+    float: left;
+    margin: 0.5em 2em 2em -2em;
+  }
+}

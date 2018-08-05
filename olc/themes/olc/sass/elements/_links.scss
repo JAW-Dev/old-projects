@@ -1,0 +1,29 @@
+/*---------------------------------------------------------
+ * Links
+---------------------------------------------------------*/
+a {
+  display: inline;
+  text-decoration: underline;
+  color: $color__link;
+  transition: color 0.4s ease-in-out;
+  &:visited {
+    color: $color__link-visited;
+  }
+  &:hover,
+  &:focus,
+  &:active {
+    color: $color__link-hover;
+    color: $color__link-hover;
+    transition: color 0.4s ease-in-out;
+  }
+  &:focus {
+    outline: thin dotted;
+  }
+  &:hover,
+  &:active {
+    outline: none;
+  }
+}
+*:focus {
+    outline: none;
+}

@@ -1,0 +1,201 @@
+/* Widgets
+================================================================================*/
+.widget-area {
+	padding: 0;
+	list-style-type: none;
+	.widget {
+		margin-bottom: 2em;
+	}
+	.widgettitle {
+		font-size: 1.2em;
+		color: darken($link-color, 15%);
+		text-transform: uppercase;
+		font-weight: bold;
+		a {
+			color: darken($link-color, 15%);
+		}
+	}
+	ul {
+		padding: 0;
+		list-style-type: none;
+
+	}
+	li.widget {
+		&.widget {
+			border-bottom: 1px solid $border-color;
+		}
+		&.widget-last,
+		&.widget__twitter-heading {
+			border-bottom: none;
+		}
+	}
+	.widget_featured_resources,
+	.widget_client_cat,
+	.widget_archive_widget,
+	.widget_team_widget,
+	.widget_partners_widget,
+	.widget_childpage_widget {
+		.widgettitle {
+			margin-bottom: 1.5em;
+		}
+		li {
+			margin-bottom: 1em;
+			font-size: 1.2em;
+			@extend .rockwell;
+		}
+		.widgettitle.search {
+			margin-bottom: 0.5em;
+		}
+	}
+	.widget__twitter-heading {
+		margin-bottom: 0;
+		.widgettitle {
+			padding-right: 1em;
+			&:after {
+				font-family: 'social-icons';
+				speak: none;
+				font-style: normal;
+				font-weight: normal;
+				font-variant: normal;
+				text-transform: none;
+				line-height: 1;
+				-webkit-font-smoothing: antialiased;
+				-moz-osx-font-smoothing: grayscale;
+				content: "\70";
+				float: right;
+			}
+		}
+	}
+	.widget_reallysimpletwitterwidget {
+		color: $base-font-color;
+		.widgettitle {
+			margin-bottom: 2em;
+			@extend .rockwell-light-italic;
+			font-size: 1em;
+		}
+		li {
+			margin-bottom: 0.5em;
+			&:last-child {
+				hr {
+					display: none;
+				}
+			}
+		}
+		hr {
+			background-color: $border-color;
+			height: 1px;
+			border: none;
+			width: 74%;
+			margin: 0.5em auto;
+		}
+	}
+	.widget_facebook_widget,
+	.widget_linkedin_widget,
+	.widget_twitter_widget {
+		padding-bottom: 1.5em;
+		.widgettitle {
+			padding-right: 1em;
+			&:after {
+				font-family: 'social-icons';
+				speak: none;
+				font-style: normal;
+				font-weight: normal;
+				font-variant: normal;
+				text-transform: none;
+				line-height: 1;
+				-webkit-font-smoothing: antialiased;
+				-moz-osx-font-smoothing: grayscale;
+				float: right;
+			}
+		}
+		.widgetsubtitle {
+			@extend .rockwell-light-italic;
+			font-size: 1.2em;
+			color: darken($link-color, 15%);
+			font-weight: bold;
+			a {
+				color: darken($link-color, 15%);
+			}
+		}
+	}
+	.widget_facebook_widget {
+		.widgettitle {
+			&:after {
+				content: "\74";
+			}
+		}
+	}
+	.widget_linkedin_widget,
+	.widget_twitter_widget {
+		.widgettitle {
+			&:after {
+				content: "\70";
+			}
+		}
+	}
+	.widget__download {
+		padding: 1em;
+		background-image: url("images/dl-bg.png");
+		border: 1px solid $border-color;
+		.widgettitle {
+			color: $heading-color;
+			font-size: 1.5em;
+			text-align: center;
+			@extend .rockwell-light-italic;
+			font-weight: normal;
+			margin-bottom: 0.5em;
+		}
+		.download__button {
+			clear: both;
+			width: auto;
+			max-width: 95%;
+			margin: 0 auto;
+			height: 40px;
+			max-height: 100%;
+		}
+	}
+	.widget_archive_widget {
+		padding-bottom: 1.5em;
+	}
+	.archive-search {
+		padding: 0 1.5em;
+		input[type="text"] {
+			width: 100%;
+			padding: 1em 0.5em;
+			border: 1px solid $secondary-border-color;
+			text-align: center;
+			margin-bottom: 0.5em;
+		}
+		::-webkit-input-placeholder,
+		:-moz-placeholder,
+		::-moz-placeholder,
+		:-ms-input-placeholder {
+		   text-align: center;
+		}
+		input[type="submit"] {
+			width: 100%;
+			color: #fff;
+			background-color: $border-color;
+			border: 1px solid darken($border-color, 15%);
+			height: 40px;
+			font-size: 1em;
+			font-weight: bold;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+			text-align: center;
+			padding: 0.5em 0.5em;
+			margin-top: 0;
+			transition: background-color 0.3s ease;
+			transition: color 0.3s ease;
+			&:hover {
+				transition: background-color 0.3s ease;
+				transition: color 0.1s ease;
+				color:  darken(#fff, 15%);
+				background-color:  darken($border-color, 15%);
+			}
+		}
+	}
+	.widget-content {
+		padding: 0.5em 0 1em;
+	}
+}

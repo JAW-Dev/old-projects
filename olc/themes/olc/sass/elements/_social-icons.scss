@@ -1,0 +1,14 @@
+/**--------------------------------------------------------
+ * Socail Icons
+ *---------------------------------------------------------*/
+.social-Links {
+  overflow: hidden;
+}
+.social-links__icon {
+  float: left;
+  @include font-size(26);
+  margin-right: 1em;
+  &:last-child {
+    margin-right: 0;
+  }
+}

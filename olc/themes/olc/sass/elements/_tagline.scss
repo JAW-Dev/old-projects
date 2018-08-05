@@ -1,0 +1,45 @@
+/*---------------------------------------------------------
+ * Tagline
+---------------------------------------------------------*/
+.tagline {
+	padding: 5em 1em 2em;
+}
+
+.fp-boxes {
+	margin-top: 3em;
+}
+
+.tagline__heading,
+.taline__text {
+	text-align:     center;
+	letter-spacing: 2px;
+}
+
+.tagline__heading {
+	@include font-size(36);
+	margin: 0 0 0.5em;
+	@include media-query(480px) {
+		@include font-size(53);
+	}
+}
+
+.taline__text {
+	@include font-size(26);
+}
+
+.subdomain-tagline {
+	background-color: #00AAD8;
+	color:            #FFF;
+	max-width:        100%;
+	padding:          30px;
+	h2 {
+		color:     #FFF;
+		max-width: 1050px;
+	}
+}
+
+@media screen and (min-width: 990px) {
+	.subdomain-tagline {
+		padding: 130px 0 90px 0;
+	}
+}

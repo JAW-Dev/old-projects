@@ -1,0 +1,53 @@
+/* Forms
+================================================================================*/
+.gform_wrapper {
+	padding: 1em 1.5em;
+	margin-top: 0;
+	::-webkit-input-placeholder,
+	:-moz-placeholder,
+	::-moz-placeholder,
+	:-ms-input-placeholder {
+	   text-align: center;
+	}
+}
+.gform_wrapper .top_label input.medium, 
+.gform_wrapper .top_label select.medium,
+.gform_wrapper textarea.medium {
+	width: 100% !important;
+	padding: 1em 0.5em;
+	border: 1px solid $secondary-border-color;
+	text-align: center;
+	margin-bottom: 0.5em;
+}
+.gform_wrapper .gform_footer {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+.gform_wrapper .gform_footer input.button, 
+.gform_wrapper .gform_footer input[type=submit] {
+	width: 100%;
+	color: #fff;
+	background-color: $border-color;
+	border: 1px solid darken($border-color, 15%);
+	height: 40px;
+	font-size: 1em;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 0.5em 0.5em;
+	margin-top: 0;
+	transition: background-color 0.3s ease;
+	transition: color 0.3s ease;
+	&:hover {
+		transition: background-color 0.3s ease;
+		transition: color 0.1s ease;
+		color:  darken(#fff, 15%);
+		background-color:  darken($border-color, 15%);
+	}
+}
+.gform_wrapper .top_label .gfield_label {
+	clip: rect(1px 1px 1px 1px); // IE6, IE7
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+}

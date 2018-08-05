@@ -1,0 +1,29 @@
+/*---------------------------------------------------------
+ * Base
+---------------------------------------------------------*/
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+html {
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+      overflow-y: scroll;
+}
+body {
+  margin: 0;
+  position: relative;
+  font-size: 18px;
+  background-color: #fff;
+  background-repeat: repeat;
+  background-image: url(images/background.png);
+  overflow-x: hidden;
+  font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+    background-image: url(images/bg@2.png);
+  }
+}
+.main {
+  min-height: 700px;
+}

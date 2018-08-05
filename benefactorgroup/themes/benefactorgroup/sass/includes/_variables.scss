@@ -1,0 +1,36 @@
+// Layout
+//================================================================================
+$susy: (
+  global-box-sizing: border-box,
+  columns: 12,
+  gutters: 0,
+  gutter-position: inside,
+);
+$gutter: 0.5em;
+$section-bottom-margin: 1em;
+$aside-width: span(3);
+// Colors
+//================================================================================
+$base-background: #fff;
+$base-font-color: darken( #3bbcb1, 10% );
+
+$heading-color: #40451b;
+$link-color: #3bbcb1;
+$accent-color: #e0ca1f;
+$border-color: #d2d3d5;
+$secondary-border-color: #e1cb20;
+// Typography
+//================================================================================
+$base-font-size: 16px;
+$base-line-height: ($base-font-size * 2) - ($base-font-size / 2);
+$golden-ratio: 1.61803398875;
+$base-font-family: Avenir Next LT W01 SC;
+// Breakpoints
+//================================================================================
+$bp-base: 0em;
+$bp-mobile-1:   20.000em; // 320px
+$bp-mobile-2:   30.000em; // 480px
+$bp-tab-1:      40.625em; // 600px
+$bp-tab-2:      48.000em; // 768px
+$bp-tab-3:      64.000em; // 1024px
+$bp-desk-1:     80.000em; // 1280px

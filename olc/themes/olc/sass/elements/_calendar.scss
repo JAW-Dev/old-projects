@@ -1,0 +1,27 @@
+/*---------------------------------------------------------
+ * Calendar
+---------------------------------------------------------*/
+.ai1ec-subscribe-container,
+.ai1ec-subscribe-dropdown {
+  display: none !important;
+}
+.ai1ec-agenda-widget-view .ai1ec-date,
+.ai1ec-agenda-view .ai1ec-date {
+  background: none;
+}
+.ai1ec-agenda-widget-view .ai1ec-date-title, 
+.ai1ec-agenda-view .ai1ec-date-title,
+.ai1ec-agenda-widget-view .ai1ec-month, 
+.ai1ec-agenda-view .ai1ec-month,
+.ai1ec-agenda-view .ai1ec-event,
+.timely .ai1ec-btn,
+.ai1ec-btn-group-xs > .ai1ec-bt {
+  border-radius: 0px;
+}
+.ai1ec-agenda-view .ai1ec-event-description,
+.ai1ec-agenda-view .ai1ec-event .ai1ec-event-time {
+    @include font-size(16);
+}
+.ai1ec-agenda-view .ai1ec-event .ai1ec-event-title {
+    @include font-size(18);
+}

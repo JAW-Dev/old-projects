@@ -1,0 +1,33 @@
+/* Pages Slider
+================================================================================*/
+.pages-slider {
+	height: 294px;
+	@include media-query($bp-tab-1) {
+		height: 470px;
+    }
+    @include media-query($bp-tab-3) {
+        height: 734px;
+    }
+}
+.pages-slider__container {
+	.slider__inner {
+		position: relative;
+		height: 294px;
+		@include media-query($bp-tab-1) {
+			height: 470px;
+	    }
+	    @include media-query($bp-tab-3) {
+	        height: 734px;
+	    }
+		img {
+			width: 100%;
+			height: 294px;
+			@include media-query($bp-tab-1) {
+				height: 470px;
+		    }
+		    @include media-query($bp-tab-3) {
+		        height: 734px;
+		    }
+		}
+	}
+}

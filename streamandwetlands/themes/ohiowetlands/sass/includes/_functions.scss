@@ -1,0 +1,14 @@
+/* Functions
+/*==============================================================================*/
+// @name Calculate em from px
+// @description Converts em units to pixel units
+@function calculateEm($size, $base-font-size: $base-font-size) {
+  $remSize: $size / $base-font-size;
+  @return #{$remSize}em;
+}
+// @name Calculate rem from px
+// @description Converts pixel units to em units
+@function calculateRem($size, $base-font-size: $base-font-size) {
+  $remSize: $size / $base-font-size;
+  @return #{$remSize}rem;
+}

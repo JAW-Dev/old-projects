@@ -1,0 +1,79 @@
+/*---------------------------------------------------------
+ * Cotact Form
+---------------------------------------------------------*/
+.contact-from {
+  background-color: #fff;
+  width: 860px;
+  max-width: 100%;
+  .gform_wrapper {
+    margin: 0;
+    max-width: 100%;
+  }
+  .gform_wrapper .gform_footer input.button,
+  .gform_wrapper .gform_footer input[type=image],
+  .gform_wrapper .gform_footer input[type=submit],
+  input[type=submit] {
+      border: none;
+      background-color: $light-blue;
+      color: #fff;
+      padding: .5em .5em .55em;
+      position: relative;
+      top: 0px;
+      font-family: "Montserrat";
+      transition: background-color 0.4s ease-in-out;
+      width: 100%;
+      text-transform: uppercase;
+      @include font-size(16);
+      &:hover {
+        transition: background-color 0.4s ease-in-out;
+        background-color: $dark-blue;
+      }
+  }
+  .gform_wrapper textarea.large {
+      height: 150px !important;
+  }
+  input[type="text"] {
+    outline-style: none;
+    font-size: inherit;
+    font-family: inherit;
+    padding: .313em 0 .313em 0;
+    letter-spacing: normal;
+    text-indent: .25em;
+  }
+  input[type="text"],
+  textarea {
+    @include font-size(14);
+    border: 4px solid #c2c2c1;
+    border-radius: 5px;
+    &:focus {
+      border-color: #009dd7;
+    }
+  }
+  .gform_heading {
+    padding: 1.5em 3.5em 0;
+  }
+  .gform_title {
+    margin: 0 0 0.5em 0 !important;
+    text-transform: uppercase;
+    letter-spacing: 2px !important;
+  }
+  .gform_body {
+    padding: 0 3.5em;
+  }
+  .gfield_label {
+    margin: 1.5em 0 0.5em;
+    @include font-size(14);
+  }
+  .gform_wrapper .gform_footer {
+    padding-bottom: 0px !important; 
+  }
+  .gsection {
+    border-bottom: none !important;
+    margin: 1em 0 0!important;
+    .gsection_title {
+      font-weight: normal !important;
+      @include font-size(14);
+      color: $color__font;
+    } 
+  }
+}

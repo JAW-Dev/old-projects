@@ -1,0 +1,27 @@
+// Links
+//***********************************/
+a {
+  background: transparent;
+  color: $link-color;
+  transition: color 0.3s ease;
+  text-decoration: none;
+  &:hover {
+  	color: $link-hover-color;
+  	transition: color 0.3s ease;
+  }
+  em {
+  	color: $base-font-color;
+  	transition: color 0.3s ease;
+  	&:hover {
+	  	color: darken($base-font-color, 15%);
+	  	transition: color 0.3s ease;
+	  }
+  }
+}
+a:focus {
+    outline: thin dotted;
+}
+a:active,
+a:hover {
+    outline: 0;
+}

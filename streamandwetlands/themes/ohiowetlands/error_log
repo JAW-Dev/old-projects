@@ -1,0 +1,15 @@
+[05-Jul-2016 16:42:24 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/streamandwetland/public_html/wp-content/themes/ohiowetlands/404.php on line 1
+[07-Jul-2016 12:26:34 America/New_York] PHP Fatal error:  Call to undefined function add_action() in /home/streamandwetland/public_html/wp-content/themes/ohiowetlands/functions.php on line 38
+[26-Jul-2016 04:03:53 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/streamandwetland/public_html/wp-content/themes/ohiowetlands/404.php on line 1
+[26-Jul-2016 04:04:04 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/streamandwetland/public_html/wp-content/themes/ohiowetlands/404.php on line 1
+[26-Jul-2016 04:20:09 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/streamandwetland/public_html/wp-content/themes/ohiowetlands/404.php on line 1
+[27-Jul-2016 21:16:38 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/streamandwetland/public_html/wp-content/themes/ohiowetlands/404.php on line 1
+[06-Aug-2016 03:21:53 America/New_York] PHP Fatal error:  Call to undefined function add_action() in /home/streamandwetland/public_html/wp-content/themes/ohiowetlands/functions.php on line 38
+[10-Aug-2016 10:16:02 America/New_York] PHP Fatal error:  Call to undefined function add_action() in /home/streamandwetland/public_html/wp-content/themes/ohiowetlands/functions.php on line 38
+[10-Aug-2016 19:16:42 America/New_York] PHP Fatal error:  Call to undefined function add_action() in /home/streamandwetland/public_html/wp-content/themes/ohiowetlands/functions.php on line 38
+[24-Oct-2016 19:27:39 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/streamandwetland/public_html/wp-content/themes/ohiowetlands/404.php on line 1
+[17-Mar-2017 11:26:18 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/streamandwetland/public_html/wp-content/themes/ohiowetlands/404.php on line 1
+[23-Mar-2017 14:15:10 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/streamandwetland/public_html/wp-content/themes/ohiowetlands/404.php on line 1
+[27-Mar-2017 18:33:20 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/streamandwetland/public_html/wp-content/themes/ohiowetlands/404.php on line 1
+[31-Mar-2017 12:33:18 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/streamandwetland/public_html/wp-content/themes/ohiowetlands/404.php on line 1
+[01-Apr-2017 18:30:05 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/streamandwetland/public_html/wp-content/themes/ohiowetlands/404.php on line 1

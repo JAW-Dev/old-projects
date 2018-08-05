@@ -1,0 +1,47 @@
+{
+    "key": "group_54dcbe13f3b21",
+    "title": "Author",
+    "fields": [
+        {
+            "key": "field_54dcbe1a104bc",
+            "label": "Author",
+            "name": "bene_author",
+            "type": "author",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            }
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "clients"
+            }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "side",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "author"
+    ],
+    "active": 1,
+    "description": "",
+    "modified": 1480480339
+}

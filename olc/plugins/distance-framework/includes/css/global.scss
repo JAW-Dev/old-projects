@@ -1,0 +1,47 @@
+/*---------------------------------------------------------
+ * Settings Page
+---------------------------------------------------------*/
+.distance-settings_page_acf-options-template-functions .acf-field input[type="text"], 
+.distance-settings_page_acf-options-template-functions .acf-field input[type="password"],
+.distance-settings_page_acf-options-template-functions .acf-field input[type="number"],
+.distance-settings_page_acf-options-template-functions .acf-field input[type="search"],
+.distance-settings_page_acf-options-template-functions .acf-field input[type="email"],
+.distance-settings_page_acf-options-template-functions .acf-field input[type="url"],
+.acf-field-select .acf-input {
+  max-width: 450px;
+}
+.dfw__tutorial-title {
+  padding-left: 14px;
+  background: transparent url(../images/chevron-closed.png) left center no-repeat;
+  cursor: pointer;
+}
+.dfw__tutorial-title.opened {
+  background: transparent url(../images/chevron-opened.png) left center no-repeat; 
+}
+.dfw__tutorial-video-wrapper {
+  max-width: 640px;
+  max-height: 390px;
+  margin: 0 auto;
+  display: none;
+  border: 1px solid #e5e5e5;
+  background-color: #f9f9f9;
+  padding: 0.5em;
+}
+.dfw__tutorial-video {
+  position: relative; 
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+}
+.dfw__tutorial-video iframe,
+.dfw__tutorial-video object,
+.dfw__tutorial-video embed { 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

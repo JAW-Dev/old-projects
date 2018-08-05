@@ -1,0 +1,69 @@
+// Text Elemets
+//***********************************/
+blockquote {
+	margin: 0 1.5em 1.5em;
+}
+address {
+	margin: 0 0 1.5em;
+}
+pre {
+	overflow: auto;
+}
+code, 
+kbd,
+pre,
+samp {
+	font-family: monospace, monospace;
+  	font-size: 1em;
+}
+abbr[title]
+abbr, 
+acronym {
+	border-bottom: 1px dotted #666;
+	cursor: help;
+}
+acronym { 
+	text-transform:uppercase;
+}
+mark {
+	background: #ff0;
+  	color: #000;
+}
+ins { 
+	text-decoration:underline;
+}
+dfn {
+    font-style: italic;
+}
+sup,
+sub {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+sup {
+    top: -0.5em;
+}
+sub {
+    bottom: -0.25em;
+}
+small {
+	font-size: 80%;
+}
+big {
+	font-size: 125%;
+}
+b, 
+strong{ 
+	font-weight:bold;
+}
+blockquote, dfn, cite, em, i, var{ 
+	font-style: italic;
+}
+del{ 
+	text-decoration:line-through;
+}
+q {
+    quotes: "\201C" "\201D" "\2018" "\2019";
+}

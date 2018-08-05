@@ -1,0 +1,99 @@
+{
+    "key": "group_575afa91a2067",
+    "title": "Hero Link",
+    "fields": [
+        {
+            "key": "field_575afa98d06e3",
+            "label": "Hero Image Link Types",
+            "name": "bene_hero_image_link_type",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": 30,
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "url": "URL",
+                "page-link": "Page Link"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "",
+            "layout": "vertical",
+            "return_format": "value"
+        },
+        {
+            "key": "field_575afaebd06e4",
+            "label": "Hero Image URL",
+            "name": "bene_hero_image_url",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_575afa98d06e3",
+                        "operator": "==",
+                        "value": "url"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": 70,
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_575afb10d06e5",
+            "label": "Hero Image Page Link",
+            "name": "bene_hero_image_page_link",
+            "type": "page_link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_575afa98d06e3",
+                        "operator": "==",
+                        "value": "page-link"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": 70,
+                "class": "",
+                "id": ""
+            },
+            "post_type": [],
+            "taxonomy": [],
+            "allow_null": 0,
+            "multiple": 0,
+            "allow_archives": 1
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "3085"
+            }
+        ]
+    ],
+    "menu_order": 2,
+    "position": "acf_after_title",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1480480680
+}

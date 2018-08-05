@@ -1,0 +1,456 @@
+@media all and (max-width: 1040px) {
+	.centering-container {
+		max-width: none;
+	}
+	/* BEGIN nav switch */
+	#access .menu {
+		margin-left: 0;
+		max-width:   100%;
+		width:       100%;
+	}
+	#access {
+		position: relative;
+		top:      0;
+	}
+	#primary {
+		padding-top: 0;
+	}
+	#access-cont {
+		overflow-y: visible;
+	}
+	#nav-main .menu-primary-navigation-container {
+		float:      none;
+		text-align: center;
+	}
+
+	#nav-main ul li:first-child {
+		/*padding-left:0;*/
+	}
+	#nav-main ul li {
+		padding:   0 2%;
+		font-size: 90%;
+	}
+	.red-box {
+		top: -80px;
+	}
+	.portfolio-img-cont {
+		width:    100%;
+		overflow: visible;
+	}
+	.portfolio-img-cont img {
+		width: 100%;
+	}
+
+	/* END nav switch */
+
+	/* BEGIN logo switchover */
+	#logo-cont {
+		display:    block;
+		width:      100%;
+		background: white;
+		overflow:   hidden;
+		height:     110px;
+	}
+	#logo-img-cont {
+		background:  none;
+		width:       100%;
+		padding:     0;
+		padding-top: 15px;
+		margin-left: 6%;
+	}
+	#logo-img-cont * {
+		display: block;
+		margin:  0 auto;
+		padding: 0;
+	}
+	#logo-cont-bg {
+		display: none;
+	}
+	#left-bg {
+		display: none;
+	}
+	.portfolio-meta.home {
+		display: none;
+	}
+	#branding {
+		padding: 0;
+	}
+	#branding.centering-container.main-header .logo {
+		display: none;
+	}
+	#access {
+		margin: 0;
+	}
+	.centering-container .inner {
+		width:     100%;
+		max-width: none;
+	}
+	/* END logo switchover */
+}
+
+@media all and (min-width: 851px) {
+	/* BEGIN right column fall */
+	#rightcolumn {
+		border-left:  1px solid black;
+		padding-left: 19px;
+	}
+}
+
+@media all and (max-width: 850px) {
+	/* BEGIN right column fall */
+	#rightcolumn {
+		border-top:   1px solid black;
+		margin-left:  185px;
+		margin-right: 3%;
+		width:        auto;
+		float:        none;
+		clear:        both;
+	}
+	#content {
+		margin-right: 0 !important;
+	}
+	#secondary {
+		padding-top: 20px;
+	}
+	#primary {
+		padding-bottom: 0;
+	}
+	#testimonials_widget-2 {
+		margin-bottom: 0;
+	}
+	/* END right column fall */
+
+}
+
+@media all and (max-width: 800px) {
+	#nav-main li {
+		padding-left: 1.1em;
+		font-size:    90%;
+	}
+	/* override responsive twenty-eleven */
+	#colophon #supplementary .widget-area {
+		float: left;
+	}
+	/*
+	#colophon #supplementary .widget-area {
+		float:left;
+		width:30%;
+		margin-left:3.2%;
+		padding:0;
+	}
+	#colophon #supplementary #first {
+		width:25%;
+	}*/
+}
+
+@media all and (max-width: 740px) {
+	body {
+		width: 100%;
+	}
+	.centering-container {
+		width:         100%;
+		max-width:     100%;
+		margin-left:   0;
+		margin-right:  0;
+		padding-left:  0;
+		padding-right: 0;
+	}
+	#nav-main li {
+		font-size:    100%;
+		padding-left: 2.6em;
+	}
+
+	.home .red-box {
+		display: none;
+	}
+	#home-content {
+		top: 0;
+	}
+	.home #primary div#content {
+		margin:  0 !important;
+		padding: 10px !important;
+	}
+
+	#portfolio-img-angle {
+		display: none;
+	}
+}
+
+@media all and (max-width: 600px) {
+	/* general space saving stuff */
+	p {
+		margin-bottom: 1em;
+	}
+
+	.entry-content, .entry-summary {
+		padding: 0;
+		margin:  0;
+	}
+	#header-wrapper .portfolio-meta {
+		display:             none;
+		background-position: 0 -40px;
+	}
+	#header-wrapper .portfolio-meta .sub-meta {
+		display: none;
+	}
+	/*#nav-main ul li {
+		padding-left:1.9em;
+		font-size:100%;
+	}*/
+	#footer-nav ul li {
+		margin-left: 1em;
+		font-size:   85%;
+	}
+
+	/* switch to 100% width */
+
+	.red-box .content {
+		padding-left: 30px;
+	}
+
+	/* reorganize footer widgets */
+	#colophon #supplementary #first {
+		width: 40% !important;
+	}
+	#colophon #supplementary #second {
+		width:        44% !important;
+		margin:       0 !important;
+		padding:      0 !important;
+		padding-left: 7% !important;
+		margin-left:  7% !important;
+		border-right: none;
+		/*margin-left:4%;*/
+	}
+	#colophon #supplementary #third {
+		width: 100% !important;
+	}
+
+}
+
+@media all and (max-width: 450px) {
+	input#searchsubmit {
+		color: #FFF;
+
+	}
+	#page {
+		width: 100%;
+	}
+	#header-wrapper .portfolio-meta {
+		display: none;
+	}
+
+	/* BEGIN nav on individual lines */
+	#main {
+		margin-top:  1em;
+		padding-top: 1em;
+	}
+	#main article {
+		padding-bottom: 0;
+		margin-bottom:  0;
+	}
+	/* kill red box */
+	.red-box {
+		display: none;
+	}
+
+	body {
+		background-image: none;
+	}
+	/* top nav */
+	#access {
+		background: #D80100;
+		height:     auto;
+	}
+	#access li {
+		max-width: 100%;
+	}
+	#nav-main ul {
+		height: auto;
+	}
+	#nav-main li a {
+		color: #FFF;
+	}
+	#access #nav-main ul li {
+		display:       block;
+		float:         none;
+		text-align:    left;
+		padding-left:  5%;
+		font-size:     1.5em;
+		border-bottom: 2px solid #D1D0CB;
+	}
+	#access ul li.current-page-ancestor,
+	#access ul li.current-menu-item {
+		border-bottom: none;
+	}
+	#nav-main ul li {
+		margin-left: 0;
+	}
+	/* bottom nav */
+	#footer-nav {
+		height:  auto;
+		margin:  0;
+		padding: 0;
+	}
+	#footer-nav * {
+		width:   100%;
+		margin:  0;
+		padding: 0;
+	}
+	#footer-nav ul li {
+		display:       block;
+		float:         none;
+		text-align:    left;
+		font-size:     1.2em;
+		border-bottom: 2px solid #D1D0CB;
+		margin:        0 0 0 0 !important;
+		padding:       0 0 0 5% !important;
+		width:         95%;
+	}
+	#footer-nav ul li {
+		display: none;
+	}
+
+	/* swap footer elements */
+	#footer-wrapper {
+		position: relative;
+	}
+	#colophon {
+		position: absolute;
+		top:      100%;
+		width:    100%;
+	}
+
+	/* switch from slider to thumb above the nav, (TODO: except on portfolio pages) */
+	#header-wrapper #featured-image {
+		display:     block !important;
+		line-height: 0;
+		padding:     0;
+		margin:      0 auto;
+	}
+	#header-wrapper #featured-image img {
+		width: 100%;
+	}
+	#header-wrapper #portfolio-slider {
+		display: none;
+	}
+	#header-wrapper {
+		position: relative;
+	}
+	#portfolio-slider {
+		/*position:absolute;*/
+		/*top:100%;
+		width:100%;*/
+	}
+
+	/* switch grey footer to contact only */
+	#colophon * {
+		margin:  0;
+		padding: 0;
+	}
+	#colophon #second,
+	#colophon #third {
+		display: none;
+	}
+	#colophon #supplementary #first {
+		width: 100% !important;
+	}
+	#colophon #supplementary.three .widget-area {
+		float:  none;
+		margin: 0;
+		width:  auto;
+	}
+	#supplementary {
+		margin:  0;
+		padding: 0;
+		width:   100%;
+	}
+	#text-2 { /* contact us widget */
+		margin:         0 auto;
+		width:          auto;
+		padding-top:    1.5em;
+		padding-bottom: 2em;
+		padding-left:   2.5%;
+		padding-right:  2.5%;
+	}
+	#text-2 h3 {
+		float:         left;
+		text-align:    right;
+		width:         35%;
+		padding-right: 5%;
+		padding-top:   1.5em;
+	}
+	/*#text-2 .textwidget {*/
+	#text-2 .info {
+		float: left;
+		width: 60%;
+	}
+	#first .social {
+		text-align:  center;
+		padding:     1em;
+		padding-top: 3em;
+		clear:       both;
+		background:  #D80100;
+	}
+	#first .copyright {
+		text-align:     center;
+		padding:        1em;
+		padding-top:    0;
+		padding-bottom: 3em;
+		background:     #D80100;
+		color:          black;
+	}
+	#first .copyright br {
+		display: none;
+	}
+
+	/* reorganize content pages */
+	#main {
+		background-image: none;
+	}
+	#primary {
+		float:   none;
+		margin:  0;
+		padding: 0;
+	}
+	#primary #content {
+		margin: 0 !important;
+	}
+	#leftcolumn {
+		float:      none;
+		background: #580000;
+		color:      #FFF;
+		width:      100%;
+		margin:     0;
+		padding:    0;
+		text-align: center;
+	}
+	#leftcolumn a {
+		color: #FFF;
+	}
+	#leftcolumn ul {
+		margin:         0;
+		padding-left:   5%;
+		padding-top:    0.7em;
+		padding-bottom: 1.5em;
+		text-align:     left;
+	}
+	#leftcolumn ul li {
+		padding: 0.5em 0;
+	}
+	#rightcolumn {
+		display: none;
+	}
+
+	/* END nav on individual lines */
+
+}
+
+@media all and (max-width: 320px) {
+
+	/* logo resizing */
+	#logo-cont a img {
+		width:       75%;
+		margin-left: 15%;
+	}
+
+}

@@ -1,0 +1,54 @@
+.button.yellow:hover {
+	border-color: #000;
+}
+
+.footer__bottom {
+	background-color: #412711;
+}
+
+img.alignright {
+	margin: 0 0 1em 1em;
+}
+
+img.alignleft{
+	margin: 0 1em 1em 0;
+}
+
+.wp-caption {
+	background-color: #dddddd;
+	margin-bottom: 1em;
+}
+
+.wp-caption-text {
+	padding: .5em;
+	font-size: .9em;
+}
+
+.page-id-44 ul.dlm-downloads {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0
+}
+
+.page-id-44 ul.dlm-downloads li{
+	list-style: none;
+}
+
+
+#menu-item-805 {
+	color: #3f93ad;
+	text-transform: lowercase;
+    transition: color 0.3s ease 0s;
+}
+
+#menu-item-805 a {
+	color: #3f93ad;
+	text-transform: lowercase;
+    transition: color 0.3s ease 0s;
+}
+
+#menu-item-805 ul li a {
+	color: #6f6f71;
+    text-transform: none;
+    transition: color 0.3s ease 0s;
+}

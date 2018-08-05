@@ -1,0 +1,74 @@
+/*---------------------------------------------------------
+ * Quicklinks
+---------------------------------------------------------*/
+.quick-links {
+  width: 320px;
+  z-index: 1000;
+  right: 0px;
+  .col__1-2 {
+    padding: 0;
+  }
+  .quick-links__contact,
+  picture {
+    width: 160px;
+    height: 47px;
+    overflow: hidden;
+  }
+  picture {
+    img {
+      width: 160px;
+      height: 47px;
+    }
+    .st1{
+      fill: #fff;
+      stroke :#fff;
+      transition: stroke 0.4s ease-in-out, fill 0.4s ease-in-out;
+      }
+    .st3{
+      fill :#fff;
+      transition: stroke 0.4s ease-in-out, fill 0.4s ease-in-out;
+    }
+      &:hover {
+        .st1{
+          fill: $dark-grey-blue;
+          stroke: $dark-grey-blue;
+          transition: stroke 0.4s ease-in-out, fill 0.4s ease-in-out;
+          }
+        .st3{
+          fill: $light-blue;
+          transition: stroke 0.4s ease-in-out, fill 0.4s ease-in-out;
+        }
+      }
+  }
+  .quick-links__contact,
+  .quick-links__news {
+    background-color: #524f55;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Montserrat";
+    @include font-size(22);
+    a {
+      color: #fff;
+      text-decoration: none;
+      padding-top: 10px;
+      display: block;
+      width: 100%;
+      height: 100%;
+      transition: color 0.4s ease-in-out;
+      &:hover {
+        color:$light-blue;
+        transition: color 0.4s ease-in-out;
+      }
+    }
+  }
+  .quick-links__news {
+    background-color: #026695;
+    width: 100%;
+    a {
+      padding-bottom: 10px;
+    }
+  }
+  .btn-my-olc__svg {
+    background-color: #028fc1;
+  }
+}

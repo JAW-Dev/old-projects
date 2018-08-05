@@ -1,0 +1,53 @@
+/*---------------------------------------------------------
+ * Entries
+---------------------------------------------------------*/
+.entry__featured-image {
+  width: 100%;
+  text-align: center;
+}
+.entry__title {
+  width: 1000px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2em 0;
+  @include font-size(38);
+  text-align: center;
+}
+.entry__category-title {
+  color: $color__font;
+  border-bottom: 1px solid $color__font;
+  padding-bottom: 5px;
+}
+.nav-prev,
+.nav-next,
+.entry__catagory-link {
+  overflow: hidden;
+  margin: 2em 0 1em;
+  a {
+    display: block;
+    padding: 0.5em 1em;
+    text-transform: uppercase;
+    font-family: "Montserrat";
+    background-color: $light-blue;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.4s ease-in-out, background-color 0.4s ease-in-out;
+    &:hover {
+      transition: color 0.4s ease-in-out, background-color 0.4s ease-in-out;
+      color: $light-grey-blue;
+      background-color: $light-blue;
+    }
+  }
+}
+.entry__catagory-link {
+  text-align: right;
+  a {
+    float: right;
+  }
+}
+.nav-prev {
+  float: left;
+}
+.nav-next {
+  float: right;
+}

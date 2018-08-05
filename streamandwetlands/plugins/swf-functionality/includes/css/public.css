@@ -1,0 +1,7 @@
+.fulcrum-link a {
+	padding-left: 32px !important;
+	background-image: url('images/fulcrum-logo-32x32.png') !important;
+	background-repeat: no-repeat !important;
+	background-position: 3px 8px !important;
+	background-size: 20px !important;
+}

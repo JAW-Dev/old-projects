@@ -1,0 +1,30 @@
+/* Mobile Button
+================================================================================*/
+.mobile-button {
+	width: 35px;
+	height: 33px;
+	position: absolute;
+	right: 1em;
+	top: 0px;
+	z-index: 110;
+	display: block;
+	.line {
+		border-radius: 5px;
+		width: 100%;
+		height: 7px;
+		border: 2px solid #d2d3d5;
+		margin: 4px 0;
+	}
+	&:hover {
+		cursor: pointer;
+		.line {
+			border: 2px solid darken( #d2d3d5, 15% );
+		}
+	}
+	@include media-query($bp-tab-1) {
+        top: -20px;
+    }
+	@include media-query(782px) {
+        display: none;
+    }
+}

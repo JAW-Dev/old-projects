@@ -1,0 +1,29 @@
+/*---------------------------------------------------------
+ * Members
+---------------------------------------------------------*/
+.members__title {
+  color: $color__font;
+  background-color: #fff;
+  padding-right: 0.5em;
+  float: left;
+  text-align: left;
+  margin: 0;
+}
+.members__hr {
+  position: relative;
+  top: 16px;
+}
+.members__email {
+  picture {
+    width: 60px;
+    height: 25px;
+    overflow: hidden;
+  }
+}
+.masonry__entry {
+  width: 380px;
+  padding: 0 1em;
+}
+.members__name {
+  margin-bottom: 0.25em;
+}

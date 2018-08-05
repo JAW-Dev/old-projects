@@ -1,0 +1,161 @@
+/* Slider
+================================================================================*/
+.hero-slider {
+	height: 226px;
+	@include media-query($bp-tab-1) {
+		height: 362px;
+    }
+    @include media-query($bp-tab-2) {
+        height: 565px;
+    }
+}
+.slider__container {
+	color: $heading-color;
+	.slider__inner {
+		position: relative;
+		height: 226px;
+		@include media-query($bp-tab-1) {
+			height: 362px;
+	    }
+	    @include media-query($bp-tab-2) {
+	        height: 565px;
+	    }
+		img {
+			width: 100%;
+			height: 226px;
+			@include media-query($bp-tab-1) {
+				height: 362px;
+		    }
+		    @include media-query($bp-tab-2) {
+		        height: 565px;
+		    }
+		}
+	}
+	.slider__text-box {
+		text-align: center;
+		padding: 3em 1em 0;
+		position: absolute;
+		border: 2px solid #fff;
+		width: 427px;
+		height: 396px;
+		right: 4%;
+		top: 13%;
+		display: none;
+	    @include media-query($bp-tab-2) {
+	        display: block;
+	    }
+	}
+	.slider__mobile-text {
+		clear: both;
+		display: block;
+	    @include media-query($bp-tab-2) {
+	        display: none;
+	    }
+	}
+	.slider__box-overlay {
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
+		left: 0px;
+		background-color: #fff;
+		opacity: 0.8;
+		z-index: 29;
+	}
+	.slider__box-text {
+		position: relative;
+		z-index: 30;
+	}
+	a {
+		color: $heading-color;
+		text-decoration: none;
+	}
+	.text-box__title {
+		@extend .averin-next-lt;
+		font-size: 1.5em;
+		font-weight: bold;
+		margin-bottom: 0.5em;
+		text-transform: uppercase;
+		
+	}
+	.text-box__subtitle {
+		@extend .rockwell;
+		font-size: 1.5em;
+		margin-bottom: 0.5em;
+	}
+	p {
+		line-height: 2em;
+		margin-bottom: 1em;
+	}
+	&.quote {
+		.text-box__text {
+			@extend .rockwell;
+			font-size: 1.5em;
+		}
+		.text-box__bottom-text {
+			@extend .averin-next-lt;
+			font-size: 1.5em;
+			font-weight: bold;
+		}
+		p {
+			line-height: 1.5em;
+		}
+	}
+	&.callout {
+		.text-box__text {
+			@extend .rockwell-light;
+		}
+		.text-box__bottom-text {
+			@extend .rockwell;
+			font-size: 3em;
+			font-weight: bold;
+			margin-top: 0.5em;
+		}
+	}
+	&.plain-text {
+		.text-box__text {
+			@extend .rockwell-light;
+		}
+		.text-box__bottom-text {
+			@extend .averin-next-lt;
+			font-size: 1.5em;
+			font-weight: bold;
+		}
+	}
+	.text-box__button {
+		width: 177px;
+		margin: 0 auto;
+		a {
+			color: $link-color;
+		}
+	}
+	.slider__mobile-text {
+		text-align: center;
+		padding: 0.5em 0 1em;
+		@extend .averin-next-lt;
+		color: $base-font-color;
+		a {
+			color: $base-font-color;
+		}
+		.title {
+			@extend .rockwell-light-italic;
+		}
+	}
+	.owl-prev {
+		height: 565px;
+	}
+	.owl-next {
+		height: 565px;
+	}
+	.owl-dots {
+		bottom: 50px;
+		right: 0;
+		position: absolute;
+		width: 427px;
+		max-width:100%;
+		display: none;
+		@include media-query($bp-tab-1) {
+	        right: 4%;
+	    }
+	}
+}

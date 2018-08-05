@@ -1,0 +1,51 @@
+/*---------------------------------------------------------
+ * Excerpt
+---------------------------------------------------------*/
+.excerpt {
+	margin-bottom: 1em;
+	.excerpt__date,
+	.excerpt__content-wrapper {
+		float: left;
+	}
+	.excerpt__date {
+		@include font-size(25);
+		width:   20%;
+		color:   $dark-blue;
+		padding: 0 0.5em .5em;
+		display: none;
+		@include media-query(785px) {
+			display: block;
+		}
+	}
+	.excerpt__content-wrapper {
+		width:   100%;
+		padding: 0 1em 1em 0.5em;
+		@include media-query(785px) {
+			width: 80%;
+		}
+	}
+	.excerpt__title {
+		margin: 0 0 0.5em 0;
+		@include font-size(27);
+	}
+}
+
+.excerpt, .home {
+	.ellipsis__dots {
+		letter-spacing: 2px;
+	}
+	.more__link {
+		@include font-size(14);
+		text-decoration: none;
+		text-transform:  uppercase;
+		letter-spacing:  2px;
+		font-family:     "Montserrat";
+		@include media-query(785px) {
+			@include font-size(18);
+		}
+	}
+	.more__dots {
+		position: relative;
+		bottom:   4px;
+	}
+}

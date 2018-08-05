@@ -1,0 +1,103 @@
+// Clear and Clearfix
+//================================================================================
+@mixin clear{
+	clear:both;
+}
+@mixin clearfix {
+	*zoom:1;
+	&:before {
+		content: " ";
+		display: table;
+	}
+	&:after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+}
+// Image Replacement
+//================================================================================
+@mixin ir{
+	font: 0/0 a;
+    text-shadow: none;
+    color: transparent;
+    width: 0px;
+}
+// Images
+//================================================================================
+@mixin fluid-media{
+	max-width: 100%;
+	height:auto;
+}
+@mixin scale-image-ie($image-url) {
+  background: none;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    src="#{image_url($image-url, true, false)}",
+    sizingMethod="scale"
+  );
+}
+// Link Color
+//================================================================================
+@mixin link($base: $base-font-color, $hover: $base-font-color, $visited: $base-font-color, $focus: $base-font-color, $active: $base-font-color, $base-font-color: $base-font-color){
+	@if $base != $base-font-color{
+		color: $base;
+	}
+	&:hover {
+		@if $hover != $base-font-color{
+			color: $hover;
+		}
+	}
+	&:visited {
+		@if $visited != $base-font-color{
+			color: $visited;
+		}
+	}
+	&:focus {
+		@if $focus != $base-font-color{
+			color: $focus;
+		}
+	}
+	&:active {
+		@if $active != $base-font-color{
+			color: $active;
+		}
+	}
+}
+// Horizontal List Position
+//================================================================================
+@mixin hor-list-pos($position){
+	margin:0;
+	@if $position == center{
+		text-align:center;
+	} @else if $position == left{
+		text-align:left;
+	} @else if $position == right{
+		text-align:right;
+	}
+	li{
+		margin:0;
+		display:inline-block;
+		*display:inline;
+		zoom:1;
+	}
+}
+// Font Size
+//================================================================================
+@mixin font-size($size) {
+  font-size: $size;
+  font-size: calculateRem($size);
+}
+// Media Queries
+//================================================================================
+@mixin media-query($beakpoint){
+	@media screen and (min-width: $beakpoint) { @content }
+}
+// Opactity
+//================================================================================
+@mixin opacity($opacity: 0.5) {
+    filter:         alpha(opacity=($opacity * 100));
+    -ms-filter:     "progid:DXImageTransform.Microsoft.Alpha(Opacity=" + ($opacity * 100) + ")";
+    -moz-opacity:   $opacity;
+    -khtml-opacity: $opacity;
+    opacity:        $opacity;
+}

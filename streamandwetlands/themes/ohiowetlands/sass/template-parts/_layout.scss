@@ -1,0 +1,54 @@
+/* Layout
+===============================================================================*/
+.content {
+    @include container(1200px);
+    position: relative;
+    padding: 0.5em;
+}
+.col__half {
+	width: 592px;
+	max-width: 100%;
+	float: none;
+	padding: 0;
+	margin: 0 auto;
+	@include media-query(480px) {
+		padding: 1em 0;
+	}
+	@include media-query(1025px) {
+		width: 50%;
+		float: left;
+		padding: 0 2em;
+	}
+}
+.col__full {
+	width: 700px;
+	max-width: 100%;
+	padding: 0;
+	margin: 0 auto;
+	@include media-query(1025px) {
+		padding: 0 2em;
+	}
+}
+.col__two-third {
+	width: 700px;
+	max-width: 100%;
+	padding: 0;
+	margin: 0 auto;
+	float: none;
+	@include media-query(1025px) {
+		width: 60%;
+		padding-right: 4%;
+		float: left;
+	}
+}
+.col__one-third {
+	width: 700px;
+	max-width: 100%;
+	padding: 0;
+	margin: 0 auto;
+	float: none;
+	@include media-query(1025px) {
+		width: 35%;
+		float: left;
+	}
+}

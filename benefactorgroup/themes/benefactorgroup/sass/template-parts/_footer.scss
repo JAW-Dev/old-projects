@@ -1,0 +1,147 @@
+/* Footer
+================================================================================*/
+.body__footer {
+	width: 100%;
+	background-color: #41461d;
+	color: #fff;
+	padding: 2em 0;
+	@extend .rockwell-light;
+	text-align: center;
+	.content__row {
+		position: relative;
+	}
+	a {
+		color: #fff;
+		&:hover {
+			color: $link-color;
+		}
+	}
+	.footer__logo {
+		margin-bottom: 2em;
+		width: 100%;
+		float: none;
+		img {
+			width: 250px;
+			height: 58px
+		}
+		@include media-query($bp-tab-2) {
+	        width: 250px;
+	        float: left;
+	    }
+	    @include media-query(1130px) {
+	    	margin-bottom: 0;
+	    }
+	}
+	.footer__copy {
+		width: 100%;
+		margin-bottom: 2em;
+		float: none;
+		.phone1,
+		.phone2 {
+			display: inline-block;
+		}
+		.phone1 {
+			border-right: 1px solid #fff;
+			padding-right: 0.5em;
+		}
+		.phone2 {
+			padding-left: 0.25em;
+			margin-right: -2px;
+		}
+		li {
+			float: none;
+		}
+		.address {
+        	width: auto;
+        }
+		@include media-query($bp-tab-2) {
+	       	width: 325px;
+			position: relative;
+			right: -60px;
+			float: left;
+	        .phone2 {
+				margin-right: 0px;
+			}
+	        li {
+	        	float: left;
+	        }
+	        .address {
+	        	width: 100%;
+	        }
+	        .phone {
+	        	width: 100%;
+	        }
+	        .email {
+	        	width: 100%;
+	        }
+	    }
+	    @include media-query($bp-tab-3) {
+			right: -175px;
+	    }
+	    @include media-query(1130px) {
+	    	width: 771px;
+			top: 5px;
+			padding-left: 1em;
+			margin-bottom: 0;
+			text-align: right;
+	    	.copy__bottom {
+	    		ul {
+	    			@include hor-list-pos(right);
+	    		}
+	    	}
+	    	.address {
+	        	width: auto;
+	        	padding-right: 0.5em;
+	        	border-right: 1px solid #fff;
+	        }
+	        .phone {
+	        	width: auto;
+	        	padding-right: 0.5em;
+	        	padding-left: 0.5em;
+	        	border-right: 1px solid #fff;
+	        }
+	        .email {
+	        	width: auto;
+	        	padding-left: 0.5em;
+	        }
+	    }
+	    @include media-query(1200px) {
+	    	left: 35px;
+	    }
+	}
+	.copy__top {
+		width: 100%;
+	}
+	.copy__bottom {
+		width: 100%;
+		ul {
+			padding: 0;
+			list-style-type: none;
+			overflow: hidden;
+		}
+	}
+	.ginst {
+		width: 100%;
+		float: none;
+		clear: both;
+		img {
+			width: 104px;
+			height: 55px;
+		}
+		@include media-query($bp-tab-2) {
+			width: 105px;
+			left: 0px;
+			float: right;
+			position: relative;
+			clear: none;
+		}
+		@include media-query(1130px) {
+	    	left: 0px;
+	    }
+	}
+	.dot {
+		position: relative;
+		top: -4px;
+	}
+	
+}

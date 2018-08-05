@@ -1,0 +1,41 @@
+/*---------------------------------------------------------
+ * Headings
+---------------------------------------------------------*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $color__header;
+  font-family: "Montserrat", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  a {
+    text-decoration: none;
+    color: $color__header;
+    &:visited,
+    &:hover,
+    &:focus,
+    &:active {
+      color: $color__header;
+    }
+  }
+}
+h1 {
+  @include font-size( $h1-font-size );
+}
+h2 {
+  @include font-size( $h2-font-size );
+}
+h3 {
+  @include font-size( $h3-font-size );
+  color: $color__font;
+}
+h4 {
+  @include font-size( $h4-font-size );
+}
+h5 {
+  @include font-size( $h5-font-size );
+}
+h6 {
+  @include font-size( $h6-font-size );
+}

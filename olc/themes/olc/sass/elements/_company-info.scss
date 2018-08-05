@@ -1,0 +1,36 @@
+/*---------------------------------------------------------
+ * Company Info
+---------------------------------------------------------*/
+.company,
+.company__address {
+  font-family: "Montserrat";
+  @include font-size(21);
+  max-width: 320px;
+  padding: 1em;
+  float: none;
+  line-height: 2em;
+  span {
+    display: block;
+    &.inline {
+      display: inline;
+    }
+  }
+  a {
+    color: $color__font;
+    text-decoration: none;
+    &:hover {
+      color: $color__font
+    }
+  }
+  @include media-query(990px) {
+    float: left;
+  }
+}
+.company__address {
+  @include media-query(990px) {
+    margin-bottom: none;
+  }
+}
+.company__name {
+  font-family: "Montserrat Bold";
+}
